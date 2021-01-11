@@ -32,7 +32,7 @@
             </div>
         </div>
     </section>
-    <script src="{{asset("app.js")}}"></script>
+    <script src="{{asset("app.js")}}?id=123"></script>
     @yield('ex-js')
 </body>
 
