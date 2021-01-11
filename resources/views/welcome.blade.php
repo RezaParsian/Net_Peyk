@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <i class="fa fa-twitter box-icon fa-4x text-muted"></i>
+                    <i class="fa fa-twitter box-icon fa-4x text-muted py-3"></i>
                 </div>
             </div>
             <div class="col px-3 m-0 turbid text-center small text-white">
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <i class="fa fa-firefox box-icon fa-4x text-muted"></i>
+                    <i class="fa fa-firefox box-icon fa-4x text-muted py-3"></i>
                 </div>
             </div>
             <div class="col px-3 m-0 turbid text-center small text-white">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <i class="fa fa-chrome box-icon fa-4x text-muted"></i>
+                    <i class="fa fa-chrome box-icon fa-4x text-muted py-3"></i>
                 </div>
             </div>
             <div class="col px-3 m-0 turbid text-center small text-white">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    <i class="fa fa-github box-icon fa-4x text-muted"></i>
+                    <i class="fa fa-github box-icon fa-4x text-muted py-3"></i>
                 </div>
             </div>
             <div class="col px-3 m-0 turbid text-center small text-white">
@@ -82,7 +82,7 @@
         </div>
     </div>
 
-    <div id="app"></div>
+    <div id="app" class="mt-3"></div>
 @endsection
 
 @section('ex-css')
