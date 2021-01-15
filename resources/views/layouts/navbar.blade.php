@@ -52,7 +52,7 @@
                 <!-- topnav -->
                 <div class="col-lg-10 col-md-8 bg-dust mr-auto fixed-top" id="topbar">
                     <div class="row ">
-                        <div class="col">
+                        <div class="col-md">
                             <form class="form-inline my-2 justify-content-center">
                                 <div class="input-group input-group-sm">
                                     <input class="form-control form-control-navbar" type="search" placeholder="Search"
@@ -69,10 +69,10 @@
                             </form>
                         </div>
 
-                        <div class="col"></div>
+                        <div class="col-md"></div>
 
-                        <div class="col float-right">
-                            <ul class="navbar-nav float-left">
+                        <div class="col-md float-right">
+                            <ul class="nav justify-content-center">
                                 <li class="nav-item">
                                     <a class="nav-link position-relative" href="#">
                                         <i class="fa text-muted fa-comments"></i>
