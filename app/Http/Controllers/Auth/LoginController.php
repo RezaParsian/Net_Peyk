@@ -26,10 +26,15 @@ class LoginController extends Controller
      *
      * @var string
      */
-    public function redirectTo() {
+    public function redirectTo()
+    {
         return route("root");
     }
 
+    function loggedOut()
+    {
+        return redirect(route("root"));
+    }
     /**
      * Create a new controller instance.
      *

@@ -9585,6 +9585,11 @@ body {
 }
 
 @font-face {
+    font-family: kave;
+    src: url(./fonts/Far_Kaveh.ttf) format('truetype')
+}
+
+@font-face {
     font-family: SourceSerifPro;
     src: url(./fonts/SourceSerifPro-SemiBold.ttf) format('truetype')
 }
@@ -9873,4 +9878,12 @@ input:checked+.slider:before {
     background-image: url("./img/bg.jpg");
     background-size: cover;
     background-position: center center;
+}
+
+.transparent-textbox{
+    background: transparent;
+}
+
+.kave{
+    font-family: kave !important;
 }

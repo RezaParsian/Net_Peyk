@@ -11,8 +11,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <form method="POST" action="{{ route('password.email') }}">
+                    <div class="row mb-3">
+                        <img class="mb-4 rounded-circle border border-info mx-auto" src="/favicon.ico" alt="logo" width="72" height="72">
+                    </div>
+                    <form method="POST" class="mb-5" action="{{ route('password.email') }}">
                         @csrf
 
                         <div class="form-group">
@@ -38,9 +40,6 @@
                         </div>
                     </form>
                 </div>
-            </div>
-            <div class="row pt-3">
-                <img class="mb-4 rounded-circle border border-info mx-auto" src="/favicon.ico" alt="logo" width="72" height="72">
             </div>
         </div>
     </div>

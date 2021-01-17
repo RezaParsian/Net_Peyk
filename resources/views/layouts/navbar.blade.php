@@ -8,9 +8,13 @@
             <div class="row">
                 <!-- sidebar -->
                 <div class="col-xl2 col-lg-2 col-md-4  fixed-top" id="sidebar">
-                    <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 border-bottom">نت
-                        پیک</a>
-                    <div class="text-center text-warning border-bottom pb-3" id="username">
+                    <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 border-secondary border-bottom kave">
+                        {{-- <div class="row">
+                            <img class="rounded-circle bg-white mx-auto" src="/favicon.ico" alt="logo" width="40" height="40">
+                        </div> --}}
+                        نت پیک مرداویج
+                    </a>
+                    <div class="text-center text-warning border-bottom border-secondary pb-3 kave" id="username">
                         <div class="row justify-content-center">
                             <img src="https://rp76.ir/favicon.ico" class="col-2 ml-2 mt-1 p-0 rounded-circle"
                                 alt="نام کاربری">
@@ -19,7 +23,7 @@
                     </div>
                     <ul class="navbar-nav flex-column p-0 mt-2">
                         <li class="nav-item my-1 @yield('dashboard')">
-                            <a href="" class="nav-link text-white active">
+                            <a href="" class="nav-link text-white {{Menu::SetActive("dashboard")}}">
                                 <i class="fa fa-tachometer"></i>
                                 داشبورد
                             </a>
@@ -28,14 +32,14 @@
                         <li class="nav-item my-1 @yield('note')">
                             <a href="" class="nav-link text-white">
                                 <i class="fa fa-sticky-note"></i>
-                                یادداشت
+                                کابران آنلاین
                             </a>
                         </li>
 
                         <li class="nav-item my-1">
                             <a href="#" class="nav-link text-white">
                                 <i class="fa fa-cogs"></i>
-                                تنظیمات
+                                کاربران آفلاین
                             </a>
                         </li>
 
