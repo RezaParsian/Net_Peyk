@@ -12,10 +12,10 @@
                         پیک</a>
                     <div class="text-center text-warning border-bottom pb-3" id="username">
                         <div class="row justify-content-center">
-                            <img src="https://rp76.ir/favicon.ico" class="col-2 ml-2 mt-1 p-0 rounded-circle border"
-                                alt="نام کاربری"> نام کاربری
+                            <img src="https://rp76.ir/favicon.ico" class="col-2 ml-2 mt-1 p-0 rounded-circle"
+                                alt="نام کاربری">
                         </div>
-                        {{-- {{ Auth::user()->name }} --}}
+                        {{ Auth::user()->name }}
                     </div>
                     <ul class="navbar-nav flex-column p-0 mt-2">
                         <li class="nav-item my-1 @yield('dashboard')">
@@ -40,10 +40,13 @@
                         </li>
 
                         <li class="nav-item my-1">
-                            <a href="#" class="nav-link text-white">
+                            <form id="logoutform" action="{{route("logout")}}" method="POST">
+                            @csrf
+                            <a href="#" onclick="$('#logoutform').submit()" class="nav-link text-white">
                                 <i class="fa fa-sign-out"></i>
                                 خروج
                             </a>
+                            </form>
                         </li>
 
                     </ul>
