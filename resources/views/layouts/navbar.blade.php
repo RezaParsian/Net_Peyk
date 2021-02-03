@@ -23,14 +23,14 @@
                     </div>
                     <ul class="navbar-nav flex-column p-0 mt-2">
                         <li class="nav-item my-1 @yield('dashboard')">
-                            <a href="" class="nav-link text-white {{Menu::SetActive("dashboard")}}">
+                            <a href="{{route("root")}}" class="nav-link text-white {{Menu::SetActive("dashboard")}}">
                                 <i class="fa fa-tachometer"></i>
                                 داشبورد
                             </a>
                         </li>
 
                         <li class="nav-item my-1 @yield('note')">
-                            <a href="" class="nav-link text-white">
+                            <a href="{{route("UserOnline")}}" class="nav-link text-white">
                                 <i class="fa fa-sticky-note"></i>
                                 کابران آنلاین
                             </a>

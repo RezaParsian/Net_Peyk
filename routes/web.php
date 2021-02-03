@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'dashboard',"middleware"=>"auth","namespace"=>"Dashboard"], function () {
     Route::get('/',[DashboardController::class,"Index"])->name("root");
+    Route::get('user',[DashboardController::class,"UserOnline"])->name("UserOnline");
 });
 
 Auth::routes();
